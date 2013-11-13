@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * imagex_landing_pages.panelizer.inc
+ * imagex_landing_page.panelizer.inc
  */
 
 /**
  * Implements hook_panelizer_defaults().
  */
-function imagex_landing_pages_panelizer_defaults() {
+function imagex_landing_page_panelizer_defaults() {
   $export = array();
 
   $panelizer = new stdClass();
