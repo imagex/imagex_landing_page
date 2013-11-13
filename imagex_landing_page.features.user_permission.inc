@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * imagex_landing_pages.features.user_permission.inc
+ * imagex_landing_page.features.user_permission.inc
  */
 
 /**
  * Implements hook_user_default_permissions().
  */
-function imagex_landing_pages_user_default_permissions() {
+function imagex_landing_page_user_default_permissions() {
   $permissions = array();
 
   // Exported permission: 'create landing_page content'.

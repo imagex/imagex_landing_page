@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * imagex_landing_pages.features.inc
+ * imagex_landing_page.features.inc
  */
 
 /**
  * Implements hook_ctools_plugin_api().
  */
-function imagex_landing_pages_ctools_plugin_api($module = NULL, $api = NULL) {
+function imagex_landing_page_ctools_plugin_api($module = NULL, $api = NULL) {
   if ($module == "panelizer" && $api == "panelizer") {
     return array("version" => "1");
   }
@@ -19,7 +19,7 @@ function imagex_landing_pages_ctools_plugin_api($module = NULL, $api = NULL) {
 /**
  * Implements hook_node_info().
  */
-function imagex_landing_pages_node_info() {
+function imagex_landing_page_node_info() {
   $items = array(
     'landing_page' => array(
       'name' => t('Landing Page'),

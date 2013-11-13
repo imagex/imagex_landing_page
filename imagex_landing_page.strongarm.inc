@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * imagex_landing_pages.strongarm.inc
+ * imagex_landing_page.strongarm.inc
  */
 
 /**
  * Implements hook_strongarm().
  */
-function imagex_landing_pages_strongarm() {
+function imagex_landing_page_strongarm() {
   $export = array();
 
   $strongarm = new stdClass();

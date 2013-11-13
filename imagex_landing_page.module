@@ -4,4 +4,4 @@
  * Code for the ImageX Landing Pages feature.
  */
 
-include_once 'imagex_landing_pages.features.inc';
+include_once 'imagex_landing_page.features.inc';

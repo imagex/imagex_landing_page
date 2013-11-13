@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * imagex_landing_pages.features.field_instance.inc
+ * imagex_landing_page.features.field_instance.inc
  */
 
 /**
  * Implements hook_field_default_field_instances().
  */
-function imagex_landing_pages_field_default_field_instances() {
+function imagex_landing_page_field_default_field_instances() {
   $field_instances = array();
 
   // Exported field_instance: 'node-landing_page-body'
