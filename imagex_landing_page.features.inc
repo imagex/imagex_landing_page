@@ -24,7 +24,7 @@ function imagex_landing_page_node_info() {
     'landing_page' => array(
       'name' => t('Landing Page'),
       'base' => 'node_content',
-      'description' => t('A landing page is a pnelized node that acts a section content page. For example a blog page, new listing, or directory page.'),
+      'description' => t('Use <em>landing page</em> to create a new panelized page that acts as a configurable content section page.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'help' => '',
